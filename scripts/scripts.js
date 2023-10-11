@@ -3,7 +3,8 @@ $('document').ready(function(){
 });
 
 function fetchGames() {
-    fetch("../libs/game_info.json")
+    //fetch("../libs/game_info.json")
+    fetch("https://raw.githubusercontent.com/armac7/golf-lab/main/libs/game_info.json")
         .then(response => response.json())
         .then(data => {
             let index = 0;
