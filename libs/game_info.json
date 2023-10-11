@@ -1,26 +1,30 @@
 [
     {
+        "id" : "skyrim",
         "game_name" : "Skrim: Browser Edition",
         "contributor" : " William Ryan McDonald",
-        "desc" : "Skyrim, but in your browser!",
+        "desc" : "Skyrim is on every console since 2011, now also your browser!",
         "game" : "https://wrmcd.net/pages/labs/delta-lab/index-delta.html",
         "repo" : "https://github.com/armac7/CIS-376-01/tree/main/pages/labs/delta-lab"
     },
     {
+        "id" : "discount-sites",
         "game_name" : "Watkins' Discount Sites",
         "contributor" : "Levon Watkins",
-        "desc" : "Weary wares for a weary traveler...",
+        "desc" : "Weary wares for a weary traveler...No scams here!",
         "game" : "https://v-sec0.github.io/echo-edgars-lab",
         "repo" : "https://github.com/v-sec0/echo-edgars-lab"
     },
     {
-        "game_name" : "Neco Arc Dragging Simulator",
+        "id" : "neco-arc",
+        "game_name" : "Drag Neco Arc",
         "contributor" : "Josh Jordan",
-        "desc" : "Slide around the cat creatur!",
+        "desc" : "Slide around the cat creature known as Neco Arc!",
         "game" : "https://i-eat-rocks.github.io/charlie/",
         "repo" : "https://github.com/i-eat-rocks/charlie"
     },
     {
+        "id" : "guardian-daedra",
         "game_name" : "Guardian Daedra",
         "contributor" : "Levon Watkins",
         "desc" : "Daedra? Lords of Oblivion, step up and get your guardian!",
