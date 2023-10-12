@@ -8,14 +8,6 @@
         "repo" : "https://github.com/armac7/CIS-376-01/tree/main/pages/labs/delta-lab"
     },
     {
-        "id" : "discount-sites",
-        "game_name" : "Watkins' Discount Sites",
-        "contributor" : "Levon Watkins",
-        "desc" : "Weary wares for a weary traveler...No scams here!",
-        "game" : "https://v-sec0.github.io/echo-edgars-lab",
-        "repo" : "https://github.com/v-sec0/echo-edgars-lab"
-    },
-    {
         "id" : "neco-arc",
         "game_name" : "Drag Neco Arc",
         "contributor" : "Josh Jordan",
