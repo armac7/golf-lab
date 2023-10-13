@@ -24,6 +24,14 @@
         "repo": "https://github.com/v-sec0/delta-daggerfall-lab"
     },
     {
+        "id" : "slade-berryman",
+        "game_name" : "No Way, Homie",
+        "contributor" : "Slade Berryman",
+        "desc" : "Team up Peter 1, 2, and 3 against the Green Goblin.",
+        "game" : "https://sladeberryman.github.io/charlie-376/",
+        "repo" : "https://github.com/sladeberryman/charlie-376"
+    },
+    {
         "id": "beth-tucker",
         "game_name": "Super Happiness",
         "contributor": "Beth Tucker",
