@@ -2,10 +2,18 @@
     --navy: #1d3752;
     --dark-navy: #131b29;
     --gold: #ffe420;
+    --brown: #86660b;
 }
 
 body {
     background-color: var(--dark-navy);
+    font-family: "proxima-soft", sans-serif;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0px;
 }
 
 #navbar {
@@ -24,7 +32,45 @@ body {
     color: white !important;
 }
 
+.btn-secondary {
+    background: rgb(247, 193, 9);
+    background: linear-gradient(0deg, rgba(247, 193, 9, 1) 0%, rgba(249, 230, 75, 1) 100%);
+    border-color: rgb(247, 193, 9);
+    border-color: linear-gradient(0deg, rgba(247, 193, 9, 1) 0%, rgba(249, 230, 75, 1) 100%);
+    color: rgb(111, 82, 5);
+    color: linear-gradient(0deg, rgba(111, 82, 5, 1) 0%, rgba(151, 123, 24, 1) 100%);
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.btn-secondary:hover {
+    background: rgb(254, 193, 47);
+    background: linear-gradient(0deg, rgba(254, 193, 47, 1) 0%, rgba(255, 174, 0, 1) 100%);
+    color: rgb(111, 82, 5);
+    color: linear-gradient(0deg, rgba(111, 82, 5, 1) 0%, rgba(151, 123, 24, 1) 100%);
+}
+
 iframe {
     width: 100%;
     height: 75vh;
+}
+
+#logo-img {
+    width: 500px;
+    height: auto;
+}
+
+#logo-container {
+    background-color: var(--navy);
+}
+
+#btn-group-top {
+    top: 25px;
+}
+
+.game-icon {
+    border: 8px #2c6792 solid;
+    max-width: 100%;
 }
