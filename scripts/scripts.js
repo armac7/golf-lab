@@ -14,7 +14,7 @@ function fetchGames() {
                 <div class="col-md-12 mt-3 d-flex">
                     <div class="row">
                         <div class="col-md-3 justify-content-center">
-                            <img class="game-icon" src="./styles/imgs/game-icons/${o.id}-preview.png">
+                            <img class="img-fluid game-icon" src="./styles/imgs/game-icons/${o.id}-preview.png">
                         </div>
                         <div class="col-md-9">
                             <div class="card w-100 h-80"  id="${o.id}">
