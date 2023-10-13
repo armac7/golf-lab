@@ -11,19 +11,25 @@ function fetchGames() {
                 let o = data[index];
                 //console.log("IN FETCH: " + o.id); //debug method
                 let card = `
-                <div class="col-md-12 d-flex">
-                    <div class="card w-100 h-80"  id="${o.id}">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #29bffd; font-weight: 700;">${o.game_name}</h5>
-                            <h6 class="card-subtitle">${o.contributor}</h6>
-                            <p class="card-text mt-1">${o.desc}</p>
-                            <button type="button" class="btn btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#generalModal"
-                            onclick="rebuildIframe('${o.id}')">
-                             PLAY GAME
-                            </button>
-                            <button class="btn btn-secondary mb-2" onclick="window.open('${o.repo}','_blank')">GAME REPO</button>
+                <div class="col-md-12 mt-3 d-flex">
+                    <div class="row">
+                        <div class="col-md-3 justify-content-center">
+                            <img class="game-icon" src="../styles/imgs/game-icons/${o.id}-preview.png">
                         </div>
-                    </div>
+                        <div class="col-md-9">
+                            <div class="card w-100 h-80"  id="${o.id}">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: #29bffd; font-weight: 700;">${o.game_name}</h5>
+                                    <h6 class="card-subtitle">${o.contributor}</h6>
+                                    <p class="card-text mt-1">${o.desc}</p>
+                                    <button type="button" class="btn btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#generalModal"
+                                    onclick="rebuildIframe('${o.id}')">
+                                        PLAY GAME
+                                    </button>
+                                    <button class="btn btn-secondary mb-2" onclick="window.open('${o.repo}','_blank')">GAME REPO</button>
+                                </div>
+                            </div>
+                        </div>
                 </div>
                 `;
                 index++;
