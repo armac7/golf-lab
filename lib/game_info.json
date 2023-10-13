@@ -152,11 +152,11 @@
         "repo": "https://github.com/daltrodg/special-guide-charlie"
     },
     {
-        "id": "logan-beckman",
-        "game_name": "Name Facts",
-        "contributor": "Logan Beckman",
-        "desc": "Get cool facts based on your name.",
-        "game": "https://loganbeckman21.github.io/urban-invention-delta/",
-        "repo": "https://github.com/LoganBeckman21/urban-invention-delta"
+        "id" : "logan-beckman",
+        "game_name" : "Name Facts",
+        "contributor" : "Logan Beckman",
+        "desc" : "Get cool facts based on your name.",
+        "game" : "https://loganbeckman21.github.io/urban-invention-delta/",
+        "repo" : "https://github.com/LoganBeckman21/urban-invention-delta"
     }
 ]
