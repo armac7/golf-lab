@@ -30,6 +30,7 @@ function fetchGames() {
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
                 `;
                 index++;
