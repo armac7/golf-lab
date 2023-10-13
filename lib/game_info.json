@@ -158,5 +158,13 @@
         "desc" : "Get cool facts based on your name.",
         "game" : "https://loganbeckman21.github.io/urban-invention-delta/",
         "repo" : "https://github.com/LoganBeckman21/urban-invention-delta"
+    },
+    {
+        "id" : "slade-berryman",
+        "game_name" : "No Way, Homie",
+        "contributor" : "Slade Berryman",
+        "desc" : "Team up Peter 1, 2, and 3 against the Green Goblin.",
+        "game" : "https://sladeberryman.github.io/charlie-376/",
+        "repo" : "https://github.com/sladeberryman/charlie-376"
     }
 ]
