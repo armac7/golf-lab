@@ -1,0 +1,147 @@
+[
+    {
+        "id": "ryan-mcdonald-charlie",
+        "game_name": "Doing Better.",
+        "contributor": " William Ryan McDonald",
+        "desc": "At your lowest, you're left with three choices. What will you choose?",
+        "game": "https://armac7.github.io/Charlie-Lab/",
+        "repo": "https://github.com/armac7/Charlie-Lab"
+    },
+    {
+        "id": "josh-jordan-charlie",
+        "game_name": "Ocean Creature",
+        "contributor": "Josh Jordan",
+        "desc": "What ocean creature are you?",
+        "game": "https://i-eat-rocks.github.io/delta/",
+        "repo": "https://github.com/i-eat-rocks/delta"
+    },
+    {
+        "id": "levon-watkins-charlie",
+        "game_name": "Oblivion: Browser Edition",
+        "contributor": "Levon Watkins",
+        "desc": "The beloved little brother of Skyrim, now on your browser!",
+        "game": "https://v-sec0.github.io/centurion-charlie-lab/",
+        "repo": "https://github.com/v-sec0/centurion-charlie-lab"
+    },
+    {
+        "id" : "slade-berryman-charlie",
+        "game_name" : "Name Game",
+        "contributor" : "Slade Berryman",
+        "desc" : "The name game!",
+        "game" : "https://sladeberryman.github.io/delta-376/",
+        "repo" : "https://github.com/sladeberryman/delta-376"
+    },
+    {
+        "id": "jacob-rast-charlie",
+        "game_name": "Windoge 8",
+        "contributor": "Jacob Rast",
+        "desc": "Windows, but Doge! Much Wow!",
+        "game": "https://rastifer.github.io/curly-happiness-charlie-jrast/",
+        "repo": "https://github.com/Rastifer/curly-happiness-charlie-jrast"
+    },
+    {
+        "id": "colby-norwood-charlie",
+        "game_name": "Dogebred",
+        "contributor": "Colby Norwood",
+        "desc": "Cook the dogebred!",
+        "game": "https://cnorwood10.github.io/congenial-pancake-charlie-376/",
+        "repo": "https://github.com/cnorwood10/congenial-pancake-charlie-376"
+    },
+    {
+        "id": "janna-parker-charlie",
+        "game_name": "Click the Pup",
+        "contributor": "Janna Parker",
+        "desc": "Click the puppy meme!",
+        "game": "https://jparker13.github.io/fantastic-bassoon-CHARLIE/",
+        "repo": "https://github.com/jparker13/fantastic-bassoon-CHARLIE"
+    },
+    {
+        "id": "kaitlin-renfroe-charlie",
+        "game_name": "Fun Game Zone",
+        "contributor": "Kaitlin Renfroe",
+        "desc": "Help Doge Land on the Moon!",
+        "game": "https://kaitlinrenfroe.github.io/renfroe-charlie-lab/",
+        "repo": "https://github.com/KaitlinRenfroe/renfroe-charlie-lab"
+    },
+    {
+        "id": "ella-rohling-charlie",
+        "game_name": "Coolest Name Facts",
+        "contributor": "Ella Rohling",
+        "desc": "Get cool name facts!",
+        "game": "https://ellarohling.github.io/legendary-winner-delta/",
+        "repo": "https://github.com/ellarohling/legendary-winner-delta"
+    },
+    {
+        "id": "brandon-jacks-charlie",
+        "game_name": "The Real Deal DELTA",
+        "contributor": "Brandon Jacks",
+        "desc": "Please, I must know your name..",
+        "game": "https://bjacks01.github.io/BrandoDeltaReal/",
+        "repo": "https://github.com/Bjacks01/BrandoDeltaReal"
+    },
+     {
+        "id": "lucas-hasting-charlie",
+        "game_name": "Dr. Lucas' Name Game",
+        "contributor": "Lucas Hasting",
+        "desc": "Come and get a fact about your name",
+        "game": "https://lucashasting.github.io/Name-Fact-Game/",
+        "repo": "https://github.com/LucasHasting/Name-Fact-Game"
+    },
+     {
+        "id": "seungyeon-chang-charlie",
+        "game_name": "Cool Factual Spirital Animal-nator",
+        "contributor": "Seungyeon Chang",
+        "desc": "Spirit animal renissance",
+        "game": "https://seungyeonchang.github.io/delta_lab_2023/",
+        "repo": "https://github.com/SeungyeonChang/delta_lab_2023"
+    },
+    {
+        "id": "rachel-honeycutt-charlie",
+        "game_name": "The Purple Doge Zone",
+        "contributor": "Rachel Honeycutt",
+        "desc": "SUPER EXICTING FUN GAME ZONE!",
+        "game": "https://rachelhoneycutt.github.io/ubiquitous-octo-sniffle-charlie/",
+        "repo": "https://github.com/rachelhoneycutt/ubiquitous-octo-sniffle-charlie"
+    },
+     {
+        "id": "rob-martin-charlie",
+        "game_name": "Mountain-time Spirital Animal Finder",
+        "contributor": "Rob Martin",
+        "desc": "A serene mountain and spirital experience",
+        "game": "https://robcmyk.github.io/delta-martin/",
+        "repo": "https://github.com/RobCMYK/delta-martin"
+    },
+    {
+        "id": "rachel-thompson-charlie",
+        "game_name": "The Official DOGECOIN Miner",
+        "contributor": "Rachel Thompson",
+        "desc": "The best DOGE coin finder",
+        "game": "https://panhead63.github.io/Charlie-lab/",
+        "repo": "https://github.com/panhead63/Charlie-lab"
+    },
+    {
+        "id": "raiden-greene-charlie",
+        "game_name": "Binary <-> Name ",
+        "contributor": "Raiden Greene",
+        "desc": "#1 Binary Translator",
+        "game": "https://raidengreene.github.io/namefactsdeltafall2023/",
+        "repo": "https://github.com/raidengreene/namefactsdeltafall2023"
+    },
+    {
+        "id": "dalton-rodgers-charlie",
+        "game_name": "Name Genie",
+        "contributor": "Dalton Rodgers",
+        "desc": "Curly Wordy Thingamagig",
+        "game": "https://daltrodg.github.io/curly-disco-delta/",
+        "repo": "https://github.com/daltrodg/curly-disco-delta"
+    },
+    {
+        "id" : "logan-beckman-charlie",
+        "game_name" : "Logan Beckman's Malware Site",
+        "contributor" : "Logan Beckman",
+        "desc" : "Try to not get malware challenge",
+        "game" : "https://loganbeckman21.github.io/charlieLab2/",
+        "repo" : "https://github.com/LoganBeckman21"
+    }
+    
+]
