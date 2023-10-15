@@ -16,7 +16,7 @@ function fetchGames() {
                 if (index < 4) {
                     delta_card = `
                         <div class="col-md-12 mt-3">
-                            <div class="row">
+                            <div class="row" id="${o.id}">
                                 <div class="col-md-3">
                                     <img class="img-fluid game-icon" src="./styles/imgs/game-icons/delta/${o.id}-preview.png">
                                 </div>
@@ -40,7 +40,7 @@ function fetchGames() {
                 } else {
                     delta_card = `
                         <div class="col-md-12 mt-3 hiddenDelta">
-                            <div class="row">
+                            <div class="row" id="${o.id}">
                                 <div class="col-md-3">
                                     <img class="img-fluid game-icon" src="./styles/imgs/game-icons/delta/${o.id}-preview.png">
                                 </div>
