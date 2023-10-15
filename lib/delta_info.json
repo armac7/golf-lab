@@ -1,6 +1,6 @@
 [
     {
-        "id": "skyrim",
+        "id": "ryan-mcdonald-delta",
         "game_name": "Skyrim: Browser Edition",
         "contributor": " William Ryan McDonald",
         "desc": "Skyrim is on every console since 2011, now also your browser!",
@@ -8,7 +8,7 @@
         "repo": "https://github.com/armac7/CIS-376-01/tree/main/pages/labs/delta-lab"
     },
     {
-        "id": "neco-arc",
+        "id": "josh-jordan-delta",
         "game_name": "Drag Neco Arc",
         "contributor": "Josh Jordan",
         "desc": "Slide around the cat creature known as Neco Arc!",
@@ -16,7 +16,7 @@
         "repo": "https://github.com/i-eat-rocks/charlie"
     },
     {
-        "id": "guardian-daedra",
+        "id": "levon-watkins-delta",
         "game_name": "Guardian Daedra",
         "contributor": "Levon Watkins",
         "desc": "Daedra? Lords of Oblivion, step up and get your guardian!",
@@ -24,7 +24,7 @@
         "repo": "https://github.com/v-sec0/delta-daggerfall-lab"
     },
     {
-        "id" : "slade-berryman",
+        "id" : "slade-berryman-delta",
         "game_name" : "No Way, Homie",
         "contributor" : "Slade Berryman",
         "desc" : "Team up Peter 1, 2, and 3 against the Green Goblin.",
@@ -32,7 +32,7 @@
         "repo" : "https://github.com/sladeberryman/charlie-376"
     },
     {
-        "id": "beth-tucker",
+        "id": "beth-tucker-delta",
         "game_name": "Super Happiness",
         "contributor": "Beth Tucker",
         "desc": "Back at the barnyard with some animal fun!",
@@ -40,7 +40,7 @@
         "repo": "https://github.com/beth-ann-tucker/super-happiness-echo-lab"
     },
     {
-        "id": "johnny-caringi",
+        "id": "johnny-caringi-delta",
         "game_name": "Johnny's Game Zone",
         "contributor": "Johnny Caringi",
         "desc": "Put the sunglasses on the Doge",
@@ -48,7 +48,7 @@
         "repo": "https://github.com/JohnnyCaringi/Johnnys-Cool-Game-Zone"
     },
     {
-        "id": "jacob-rast",
+        "id": "jacob-rast-delta",
         "game_name": "Spirit Animal Machine",
         "contributor": "Jacob Rast",
         "desc": "Discover your spirit animal",
@@ -56,7 +56,7 @@
         "repo": "https://github.com/Rastifer/animated-octo-dollop-delta-jrast"
     },
     {
-        "id": "colby-norwood",
+        "id": "colby-norwood-delta",
         "game_name": "Fun Fact Generator",
         "contributor": "Colby Norwood",
         "desc": "Enter your name and discover fun facts",
@@ -64,7 +64,7 @@
         "repo": "https://github.com/cnorwood10/special-bassoon-delta-376"
     },
     {
-        "id": "janna-parker",
+        "id": "janna-parker-delta",
         "game_name": "Fun Fact Generator",
         "contributor": "Janna Parker",
         "desc": "Enter your name and discover fun facts",
@@ -72,7 +72,7 @@
         "repo": "https://github.com/jparker13/silver-computing-machine-DELTA"
     },
     {
-        "id": "kaitlin-renfroe",
+        "id": "kaitlin-renfroe-delta",
         "game_name": "Spirit Animal and Fun Fact Game",
         "contributor": "Kaitlin Renfroe",
         "desc": "Enter your name and discover fun facts",
@@ -80,7 +80,7 @@
         "repo": "https://github.com/KaitlinRenfroe/delta-lab"
     },
     {
-        "id": "ella-rohling",
+        "id": "ella-rohling-delta",
         "game_name": "Eggs Meme Game",
         "contributor": "Ella Rohling",
         "desc": "Pick an egg meme.",
@@ -88,7 +88,7 @@
         "repo": "https://github.com/ellarohling/bookish-umbrella-charlie-fall2023"
     },
     {
-        "id": "brandon-jacks",
+        "id": "brandon-jacks-delta",
         "game_name": "Oscars Game",
         "contributor": "Brandon Jacks",
         "desc": "Drag the Fresh Prince game.",
@@ -96,7 +96,7 @@
         "repo": "https://github.com/Bjacks01/Brando-Charlie-Lab"
     },
     {
-        "id": "lucas-hasting",
+        "id": "lucas-hasting-delta",
         "game_name": "Doge Game",
         "contributor": "Lucas Hasting",
         "desc": "Click Doge for wow points",
@@ -104,7 +104,7 @@
         "repo": "https://github.com/LucasHasting/charlie-project"
     },
     {
-        "id": "seungyeon-chang",
+        "id": "seungyeon-chang-delta",
         "game_name": "Spongebob Game",
         "contributor": "Seungyeon Chang",
         "desc": "Take Spongebob home!",
@@ -112,7 +112,7 @@
         "repo": "https://github.com/SeungyeonChang/charlie_fall_2023"
     },
     {
-        "id": "rachel-honeycutt",
+        "id": "rachel-honeycutt-delta",
         "game_name": "Purple Fun Game",
         "contributor": "Rachel Honeycutt",
         "desc": "Enter your name and receive cool facts.",
@@ -120,7 +120,7 @@
         "repo": "https://github.com/rachelhoneycutt/curly-computing-machine-DELTA"
     },
     {
-        "id": "rob-martin",
+        "id": "rob-martin-delta",
         "game_name": "OPPENCLICKER",
         "contributor": "Rob Martin",
         "desc": "Click Opp, Destroy",
@@ -128,7 +128,7 @@
         "repo": "https://github.com/RobCMYK/Oppenclicker-martin-charlie"
     },
     {
-        "id": "rachel-thompson",
+        "id": "rachel-thompson-delta",
         "game_name": "Awesome Facts.",
         "contributor": "Rachel Thompson",
         "desc": "Enter your name, get cool response.",
@@ -136,7 +136,7 @@
         "repo": "https://github.com/panhead63/friendly-octo-guide-delta"
     },
     {
-        "id": "raiden-greene",
+        "id": "raiden-greene-delta",
         "game_name": "Bonk Doge",
         "contributor": "Raiden Greene",
         "desc": "Bad Doge, bonk him!",
@@ -144,7 +144,7 @@
         "repo": "https://github.com/raidengreene/charlielabfall2023-ideal-garbanzo"
     },
     {
-        "id": "dalton-rodgers",
+        "id": "dalton-rodgers-delta",
         "game_name": "Lazy Doge.",
         "contributor": "Dalton Rodgers",
         "desc": "Drag Doge to the gym!",
@@ -152,7 +152,7 @@
         "repo": "https://github.com/daltrodg/special-guide-charlie"
     },
     {
-        "id" : "logan-beckman",
+        "id" : "logan-beckman-delta",
         "game_name" : "Name Facts",
         "contributor" : "Logan Beckman",
         "desc" : "Get cool facts based on your name.",
