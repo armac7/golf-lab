@@ -13,26 +13,26 @@ function buildCard(dir, o) {
      */
     let card = `
     <div class="col-md-12 mt-3" id="${o.id}Container">
-    <div class="row" id="${o.id}">
-        <div class="col-md-3">
-            <img class="img-fluid game-icon" src="${dir}/${o.id}-preview.png">
-        </div>
-        <div class="col-md-9">
-            <div class="card w-100 h-80">
-                <div class="card-body">
-                    <h5 class="card-title" style="color: #29bffd; font-weight: 700;">${o.gameName}</h5>
-                    <h6 class="card-subtitle">${o.contributor}</h6>
-                    <p class="card-text mt-1">${o.desc}</p>
-                    <button type="button" class="btn btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#generalModal"
-                    onclick="rebuildIframe('${o.id}')">
-                        PLAY GAME
-                    </button>
-                    <button class="btn btn-secondary mb-2" onclick="window.open('${o.repo}','_blank')">GAME REPO</button>
+        <div class="row" id="${o.id}">
+            <div class="col-md-3">
+                <img class="img-fluid game-icon" src="${dir}/${o.id}-preview.png">
+            </div>
+            <div class="col-md-9">
+                <div class="card w-100 h-80">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #29bffd; font-weight: 700;">${o.gameName}</h5>
+                        <h6 class="card-subtitle">${o.contributor}</h6>
+                        <p class="card-text mt-1">${o.desc}</p>
+                        <button type="button" class="btn btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#generalModal"
+                        onclick="rebuildIframe('${o.id}')">
+                            PLAY GAME
+                        </button>
+                        <button class="btn btn-secondary mb-2" onclick="window.open('${o.repo}','_blank')">GAME REPO</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 `;
     return card;
 };
