@@ -1,13 +1,18 @@
-let displayDeltaCheck = 0;
-let displayCharlieCheck = 0;
-/**
- * Const used to dictate how many games are shown per section on site
- * _DELTA_DEFAULT_SHOW dictates "Most Popular"
- * _CHARLIE_DEFAULT_SHOW dictates "Trending"
- * The int dictates after what index of "game_info.json" to start hiding games per section.
- */
-const _DELTA_DEFAULT_SHOW = 3;
-const _CHARLIE_DEFAULT_SHOW = 23;
+// TODO: put a header here
+const DELTA_DEFAULT_SHOW = 3;
+const CHARLIE_DEFAULT_SHOW = 23;
+/*
+* Constants used to dictate how many games are shown per section on site
+* DELTA_DEFAULT_SHOW dictates "Most Popular"
+* CHARLIE_DEFAULT_SHOW dictates "Trending"
+* The int dictates after what index of "game_info.json" to start hiding games per section.
+*/
+const visibility = {
+    // visibility of sections, [0] == "true" currently means "collapsed".
+    "Delta": [true, DELTA_DEFAULT_SHOW],
+    "Charlie": [true, CHARLIE_DEFAULT_SHOW]
+};
+
 $('document').ready(function () {
     fetchGames();
 });
@@ -70,14 +75,12 @@ function fetchGames() {
                     $("#charlie-games").append(card);
                 };
 
-                /**
-                 * Checks if index is greater than what games are designated to be shown per section by default,
-                 * if index is greater than that value, append the appropriate "hidden" class to the element.
-                 */
-                if (includesDelta && index > _DELTA_DEFAULT_SHOW) {
+
+                //  if index is greater than the default amount shown, append the appropriate "hidden" class to the card's container.
+                if (includesDelta && index > DELTA_DEFAULT_SHOW) {
                     $(`#${o.id}Container`).addClass("hiddenDelta") //add hiddenDelta / hiddenCharlie
                 };
-                if (includesCharlie && index > _CHARLIE_DEFAULT_SHOW) {
+                if (includesCharlie && index > CHARLIE_DEFAULT_SHOW) {
                     $(`#${o.id}Container`).addClass("hiddenCharlie") //add hiddenDelta / hiddenCharlie
                 };
                 index++;
@@ -109,32 +112,27 @@ function rebuildIframe(id) {
         });
 }
 
-function showHideDelta() {
+function toggleExpandAndUpdateText(buttonId, sectionName) {
     /**
-     * [Shows or hides delta games based on whether it is currently shown or hidden. 0 is hidden, 1 is shown.]
+     * [Shows or hides games based on whether the assoc. section is currently expanded or not.
+     * Called when the "see all" button is clicked.]
+     * @param buttonId [the DOM ID of the clicked element ]
+     * @param sectionName [the name of the section to toggle visibility on]
      */
-    if (displayDeltaCheck == 0) {
-        $(".hiddenDelta").css("display", "inline-block");
-        $("#deltaShowHide").html("Hide Games &lt&lt&lt");
-        displayDeltaCheck++;
-    } else if (displayDeltaCheck == 1) {
-        $(".hiddenDelta").css("display", "none");
-        $("#deltaShowHide").html("See All &gt&gt&gt");
-        displayDeltaCheck--;
+    // isCollapsed = current visibility of section we're toggling
+    isCollapsed = visibility[sectionName][0]
+    className = ".hidden" + sectionName // DOM class name
+    if (isCollapsed) {
+        $(className).css("display", "inline-block");
+        $("#" + buttonId).html("Hide Games &lt&lt&lt");
+        isCollapsed = false;
+    } else if (!isCollapsed) {
+        $(className).css("display", "none");
+        $("#" + buttonId).html("See All &gt&gt&gt");
+        isCollapsed = true;
     }
+    // ensure these two are the same value
+    visibility[sectionName][0] = isCollapsed;
+    // console.log(isCollapsed,visibility[sectionName][0]); // check
 }
 
-function showHideCharlie() {
-    /**
-     * [Shows or hides charlie games based on whether it is currently shown or hidden. 0 is hidden, 1 is shown.]
-     */
-    if (displayCharlieCheck == 0) {
-        $(".hiddenCharlie").css("display", "inline-block");
-        $("#charlieShowHide").html("Hide Games &lt&lt&lt");
-        displayCharlieCheck++;
-    } else if (displayCharlieCheck == 1) {
-        $(".hiddenCharlie").css("display", "none");
-        $("#charlieShowHide").html("See All &gt&gt&gt");
-        displayCharlieCheck--;
-    }
-}
