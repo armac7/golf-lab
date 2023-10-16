@@ -1,7 +1,7 @@
 [
     {
         "id": "ryan-mcdonald-delta",
-        "game_name": "Skyrim: Browser Edition",
+        "gameName": "Skyrim: Browser Edition",
         "contributor": " William Ryan McDonald",
         "desc": "Skyrim is on every console since 2011, now also your browser!",
         "game": "https://wrmcd.net/pages/labs/delta-lab/index-delta.html",
@@ -9,7 +9,7 @@
     },
     {
         "id": "josh-jordan-delta",
-        "game_name": "Drag Neco Arc",
+        "gameName": "Drag Neco Arc",
         "contributor": "Josh Jordan",
         "desc": "Slide around the cat creature known as Neco Arc!",
         "game": "https://i-eat-rocks.github.io/charlie/",
@@ -17,7 +17,7 @@
     },
     {
         "id": "levon-watkins-delta",
-        "game_name": "Guardian Daedra",
+        "gameName": "Guardian Daedra",
         "contributor": "Levon Watkins",
         "desc": "Daedra? Lords of Oblivion, step up and get your guardian!",
         "game": "https://v-sec0.github.io/delta-daggerfall-lab/",
@@ -25,7 +25,7 @@
     },
     {
         "id" : "slade-berryman-delta",
-        "game_name" : "No Way, Homie",
+        "gameName" : "No Way, Homie",
         "contributor" : "Slade Berryman",
         "desc" : "Team up Peter 1, 2, and 3 against the Green Goblin.",
         "game" : "https://sladeberryman.github.io/charlie-376/",
@@ -33,7 +33,7 @@
     },
     {
         "id": "beth-tucker-delta",
-        "game_name": "Super Happiness",
+        "gameName": "Super Happiness",
         "contributor": "Beth Tucker",
         "desc": "Back at the barnyard with some animal fun!",
         "game": "https://beth-ann-tucker.github.io/super-happiness-echo-lab/",
@@ -41,7 +41,7 @@
     },
     {
         "id": "johnny-caringi-delta",
-        "game_name": "Johnny's Game Zone",
+        "gameName": "Johnny's Game Zone",
         "contributor": "Johnny Caringi",
         "desc": "Put the sunglasses on the Doge",
         "game": "https://johnnycaringi.github.io/Johnnys-Cool-Game-Zone/",
@@ -49,7 +49,7 @@
     },
     {
         "id": "jacob-rast-delta",
-        "game_name": "Spirit Animal Machine",
+        "gameName": "Spirit Animal Machine",
         "contributor": "Jacob Rast",
         "desc": "Discover your spirit animal",
         "game": "https://rastifer.github.io/animated-octo-dollop-delta-jrast/",
@@ -57,7 +57,7 @@
     },
     {
         "id": "colby-norwood-delta",
-        "game_name": "Fun Fact Generator",
+        "gameName": "Fun Fact Generator",
         "contributor": "Colby Norwood",
         "desc": "Enter your name and discover fun facts",
         "game": "https://cnorwood10.github.io/special-bassoon-delta-376/",
@@ -65,7 +65,7 @@
     },
     {
         "id": "janna-parker-delta",
-        "game_name": "Fun Fact Generator",
+        "gameName": "Fun Fact Generator",
         "contributor": "Janna Parker",
         "desc": "Enter your name and discover fun facts",
         "game": "https://jparker13.github.io/silver-computing-machine-DELTA/",
@@ -73,7 +73,7 @@
     },
     {
         "id": "kaitlin-renfroe-delta",
-        "game_name": "Spirit Animal and Fun Fact Game",
+        "gameName": "Spirit Animal and Fun Fact Game",
         "contributor": "Kaitlin Renfroe",
         "desc": "Enter your name and discover fun facts",
         "game": "https://kaitlinrenfroe.github.io/delta-lab/",
@@ -81,7 +81,7 @@
     },
     {
         "id": "ella-rohling-delta",
-        "game_name": "Eggs Meme Game",
+        "gameName": "Eggs Meme Game",
         "contributor": "Ella Rohling",
         "desc": "Pick an egg meme.",
         "game": "https://ellarohling.github.io/bookish-umbrella-charlie-fall2023/",
@@ -89,7 +89,7 @@
     },
     {
         "id": "brandon-jacks-delta",
-        "game_name": "Oscars Game",
+        "gameName": "Oscars Game",
         "contributor": "Brandon Jacks",
         "desc": "Drag the Fresh Prince game.",
         "game": "https://bjacks01.github.io/Brando-Charlie-Lab/",
@@ -97,7 +97,7 @@
     },
     {
         "id": "lucas-hasting-delta",
-        "game_name": "Doge Game",
+        "gameName": "Doge Game",
         "contributor": "Lucas Hasting",
         "desc": "Click Doge for wow points",
         "game": "https://lucashasting.github.io/charlie-project/",
@@ -105,7 +105,7 @@
     },
     {
         "id": "seungyeon-chang-delta",
-        "game_name": "Spongebob Game",
+        "gameName": "Spongebob Game",
         "contributor": "Seungyeon Chang",
         "desc": "Take Spongebob home!",
         "game": "https://seungyeonchang.github.io/charlie_fall_2023/",
@@ -113,7 +113,7 @@
     },
     {
         "id": "rachel-honeycutt-delta",
-        "game_name": "Purple Fun Game",
+        "gameName": "Purple Fun Game",
         "contributor": "Rachel Honeycutt",
         "desc": "Enter your name and receive cool facts.",
         "game": "https://rachelhoneycutt.github.io/curly-computing-machine-DELTA/",
@@ -121,7 +121,7 @@
     },
     {
         "id": "rob-martin-delta",
-        "game_name": "OPPENCLICKER",
+        "gameName": "OPPENCLICKER",
         "contributor": "Rob Martin",
         "desc": "Click Opp, Destroy",
         "game": "https://robcmyk.github.io/Oppenclicker-martin-charlie/",
@@ -129,7 +129,7 @@
     },
     {
         "id": "rachel-thompson-delta",
-        "game_name": "Awesome Facts.",
+        "gameName": "Awesome Facts.",
         "contributor": "Rachel Thompson",
         "desc": "Enter your name, get cool response.",
         "game": "https://panhead63.github.io/friendly-octo-guide-delta/",
@@ -137,7 +137,7 @@
     },
     {
         "id": "raiden-greene-delta",
-        "game_name": "Bonk Doge",
+        "gameName": "Bonk Doge",
         "contributor": "Raiden Greene",
         "desc": "Bad Doge, bonk him!",
         "game": "https://raidengreene.github.io/charlielabfall2023-ideal-garbanzo/",
@@ -145,7 +145,7 @@
     },
     {
         "id": "dalton-rodgers-delta",
-        "game_name": "Lazy Doge.",
+        "gameName": "Lazy Doge.",
         "contributor": "Dalton Rodgers",
         "desc": "Drag Doge to the gym!",
         "game": "https://daltrodg.github.io/special-guide-charlie/",
@@ -153,7 +153,7 @@
     },
     {
         "id" : "logan-beckman-delta",
-        "game_name" : "Name Facts",
+        "gameName" : "Name Facts",
         "contributor" : "Logan Beckman",
         "desc" : "Get cool facts based on your name.",
         "game" : "https://loganbeckman21.github.io/urban-invention-delta/",
