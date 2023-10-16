@@ -4,7 +4,7 @@ $('document').ready(function () {
     fetchGames();
 });
 
-function buildCard(dir,o) {
+function buildCard(dir, o) {
     /**
      * [Builds the card using the agreed-upon html/css.]
      * @param o [JSON object]
@@ -51,8 +51,8 @@ function fetchGames() {
                 //console.log("IN FETCH: " + o.id); //debug method
 
                 let delta_card;
-                delta_card = buildCard("./styles/imgs/game-icons/delta",o);
-                
+                delta_card = buildCard("./styles/imgs/game-icons/delta", o);
+
                 $("#delta-games").append(delta_card);
                 // use class to hide remaining games
                 if (index > 3) {
@@ -70,10 +70,10 @@ function fetchGames() {
                 let o = data[index];
                 //console.log("IN FETCH: " + o.id); //debug method
                 let charlie_card;
-                charlie_card = buildCard("./styles/imgs/game-icons/charlie",o);
-                
+                charlie_card = buildCard("./styles/imgs/game-icons/charlie", o);
+
                 $("#charlie-games").append(charlie_card);
-                
+
                 // add class to hide remaining games
                 if (index > 3) {
                     $(`#${o.id}Container`).addClass("hiddenCharlie") //add hiddenCharlie
