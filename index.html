@@ -16,23 +16,20 @@
 
 <body>
     <!-- LOGO -->
-    <span>
-        <div id="logo-container" class="container-fluid">
-            <div class="row justify-content-center">
-                <img id="logo-img" class="img-fluid pt-3" src="./styles/imgs/logo.png">
-            </div>
+    <div id="logo-container" class="container-fluid">
+        <div class="row justify-content-center">
+            <img class="img-fluid pt-3 logo-img" src="./styles/imgs/logo.png" alt="logo">
         </div>
-        <!-- NAV BAR -->
-        <nav class="navbar navbar-expand-lg navbar-fixed" id="navbar">
-            <form class="container-fluid justify-content-center">
-                <div id="btn-group-top" class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" href="#" class="btn btn-secondary">GAMES</button>
-                    <button type="button" onclick="window.open('https://github.com/armac7/golf-lab','_blank')"
-                        class="btn btn-secondary">REPO</button>
-                </div>
-            </form>
-        </nav>
-    </span>
+    </div>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-fixed" id="navbar">
+        <form class="container-fluid justify-content-center">
+            <div id="btn-group-top" class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" href="#" class="btn btn-secondary">GAMES</button>
+                <button type="button" onclick="window.open('https://github.com/armac7/golf-lab','_blank')" class="btn btn-secondary">REPO</button>
+            </div>
+        </form>
+    </nav>
 
 
     <div class="container-fluid mt-5">
@@ -45,7 +42,7 @@
                     <span>MOST POPULAR</span>
                     <span class="see-hide" style="float: right; font-size: 17px; margin-top: 5px;">
                         <a class="see-hide-text" href="#slade-berryman-delta" id="deltaShowHide" onclick="toggleExpandAndUpdateText(this.id,'Delta')">
-                            See All &gt&gt&gt
+                            See All &gt&gt&gt;
                         </a>
                     </span>
                 </h3>
@@ -72,7 +69,7 @@
                     <span>TRENDING</span>
                     <span class="see-hide" style="float: right; font-size: 17px; margin-top: 5px;">
                         <a class="see-hide-text" href="#slade-berryman-charlie" id="charlieShowHide" onclick="toggleExpandAndUpdateText(this.id,'Charlie')">
-                            See All &gt&gt&gt
+                            See All &gt&gt&gt;
                         </a>
                     </span>
                 </h3>
@@ -113,13 +110,14 @@
         <div class="container-fluid">
             <div class="row" style="color: white;">
                 <div class="col-md-4">
-                    <img id="logo-img" style="width: 300px;" class="img-fluid pt-3" src="./styles/imgs/logo.png" alt="logo">
+                    <img style="width: 300px;" class="img-fluid pt-3 logo-img" src="./styles/imgs/logo.png" alt="logo">
                 </div>
                 <div class="col-md-4">
                     <p>
                         This site is a parody of <a>coolmathgames.com</a>. It was created by four bored college students for the first lab post midterm in their Fall 2023 
                         Web Development course. 
-                        <br>It was made in about 8 total hours, two 4 hour sessions. 
+                        <br>It was made in about 8 total hours, two 4 hour sessions.
+                        <br><br><a class="link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Farmac7.github.io%2Fgolf-lab%2F" target="_blank">Check Validity</a>
                         <br><br>
                         © 2023 | Uncle Barry's Big Game Bungalow
                     </p>
