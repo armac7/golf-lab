@@ -22,7 +22,7 @@ body {
     font-family: "proxima-soft", sans-serif;
 }
 
-#logo-img {
+.logo-img {
     width: 350px;
     height: auto;
 }
